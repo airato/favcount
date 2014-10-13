@@ -84,7 +84,7 @@
     // Draw black count
     context.fillStyle = '#000';
     context.fillText(count,
-      xOffset + (border / 2.0),
+      xOffset + (border / 2.0) + 0.5,
       yOffset + (border / 2.0)
     );
 
